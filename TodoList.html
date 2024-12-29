@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="TodoList.css">
+    <script src="TodoList.js"></script>
+
+</head>
+<body>
+    <div class="topbar">
+        <span id="tb1">TodoList</span>
+        <button id="btn01">登录</button>
+        <button id="btn02">注册</button>
+    </div>
+    <br>
+    <div class="section">
+        <div class="section1">
+            <input type="text" id="searchThing" name="searchThing" placeholder="请输入事件搜索">
+            <button id="btn03">查询</button>
+        </div>
+        <br>
+        <div class="section2">
+            <button id="btn04">添加待办</button>
+        </div>
+        <br>
+        <div class="section3">
+            <span class="thing">待办事件</span>
+            <span class="time">创建时间</span>
+        </div>
+
+        <div class="section4">
+            <div id="paginatedItems">
+                <!-- 每个待办事项及其创建时间将作为单个 div 显示在这里 -->
+            </div>
+        </div>
+
+        <div class="pagination" id="paginationControls"></div>
+        
+    </div>
+    
+</body>
+</html>

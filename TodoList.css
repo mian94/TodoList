@@ -1,0 +1,73 @@
+/* 导航条 */
+.topbar{
+    margin: auto;
+    height: 40px;
+    background-color: dimgray;
+    display: flex;
+}
+#tb1{
+    flex: 9;
+    font-size: 22px;
+}
+#btn01{
+    flex: 0.5;
+}
+#btn02{
+    flex: 0.5;
+}
+
+/* 搜索框 */
+.search{
+    width: 200px;
+}
+
+/* 列表头 */
+.section3{
+    display: flex;
+    margin-left: 20px;
+}
+.thing{
+    flex: 6;
+}
+.time{
+    flex:4;
+}
+
+/* 列表 */
+.section4{
+    height: 350px;
+}
+
+/* 分页 */
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.todo-item:last-child {
+    border-bottom: none;
+}
+
+.pagination {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.pagination a {
+    margin: 0 4px;
+    text-decoration: none;
+    color: #007BFF;
+    padding: 4px 8px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.pagination a:hover, .pagination a.active {
+    background-color: #007BFF;
+    color: white;
+    border-color: #007BFF;
+}
+
